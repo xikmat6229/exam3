@@ -1,0 +1,350 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+nav{
+   width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    background-color: #014D55;
+    padding: 73px;
+    margin: 0 auto;
+
+}
+nav div{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    list-style-type: none;
+}
+nav div a{
+    color: white;
+    text-decoration: none;
+    font-family: livvic;
+
+}
+.img-1{
+    display: none;
+}
+main{
+background-color: #014D55;
+
+}
+.pustoy{
+    /* width: 200px; */
+}
+nav button{
+    width: 140px;
+height: 40px;
+border: 2px solid white;
+color: white;
+border-radius: 50px;
+background-color:#014D55 ;
+font-family: livvic;
+
+}
+nav button:hover{
+    background-color: #012F34;
+    color: white;
+    border: none;
+}
+.section1{
+background-color: #014D55;
+height: 517px;
+
+}
+.section2{
+    width: 80%;
+    height: 156px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.section2 h1{
+    width: 350px;
+height: 100px;
+font-family: Livvic;
+font-size: 64px;
+font-weight: 700;
+line-height: 100px;
+letter-spacing: 0px;
+
+color: white;
+}
+.section2 p{
+    width: 730px;
+height: 112px;
+font-family: Livvic;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0px;
+
+color: white;
+margin-top:50px;
+}
+.section3{
+ width: 100%;
+ margin: 0 auto;
+ text-align: center;
+ background-color: #003F46;
+}
+.cards{
+    width: 90%;
+height: 305.13px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0 auto;
+}
+.section3 h1{
+    font-family: Livvic;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: center;
+margin-bottom: 69px;
+color: white;
+padding-top: 71px;
+}
+.section4{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    height: 355px;
+}
+.img-logo{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 52px;
+    margin: 0 auto;
+}
+.section4 h1{
+    font-family: Livvic;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: center;
+color: white;
+padding-top: 100px;
+}
+.section5{
+    width: 100%;
+    margin: 0 auto;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F67E7E;
+
+}
+.left h1{
+    font-family: Livvic;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.right button{
+    width: 153px;
+height: 48px;
+background: none;
+border: 1px solid black;
+color:black;
+border-radius: 50px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color:rgba(0, 37, 41, 1);
+    ;
+}
+.container{
+    padding-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.icon i{
+    color: white;
+    width: 24px;
+    height: 24px;
+}
+@media(max-width:768px){
+    nav{
+        width: 760px;
+        max-width: 768px;
+    }
+    nav div{
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .section2{
+        flex-direction: column;
+        width: 770px;
+        padding-bottom: 112px;
+        margin: 0 auto;
+        max-width: 768px;
+    }
+    .cards{
+     width: 620px;
+     flex-wrap: wrap;
+    }
+    .cards img{
+        width: 281px;
+height: 281px;
+margin: 0 auto;
+
+
+    }
+    .section3{
+        width: 768px;
+        flex-wrap: wrap;
+        height: 800px;
+        max-width: 768px;
+    }
+    .section4 img{
+        width: 103px;
+        height: 17px;
+    }
+    .section4{
+        width: 768px;
+height: 308px;
+max-width: 768px;
+    }
+    .section4 h1{
+        font-family: Livvic;
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: center;
+
+    }
+    .section5{
+        width: 760px;
+        height: 200px;
+       max-width: 768px;
+        
+    }
+    .section5 h1{
+        font-family: Livvic;
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+letter-spacing: 0px;
+text-align: left;
+
+    }
+}
+@media(max-width:375px){
+ .section1{
+    width: 375px;
+    max-width: 375px;
+ }
+    nav{
+    width: 370px;
+    display: flex;align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+.img-1{display: block;}
+nav div {
+    display: none;
+}
+.nav-img{
+  width: 120px;
+}
+.section2{
+    width: 735px;
+    flex-direction: column;
+    max-width: 375px;
+    
+}
+.section2 p{
+    font-size: 15px;
+    width: 327px;
+    text-align: center;
+    
+}
+.section2 h1{
+    font-size: 30px;
+    text-align: center;
+}
+.cards div{
+    width: 327px;
+height: 281px;
+}
+.section3{
+    width: 375px;
+    max-width: 375px;  
+    flex-direction: column;  
+    height: 1100px;
+}
+.cards{
+  width: 375px;
+  max-width: 375px;
+}
+.section3 h1{
+    font-size: 32px;
+}
+.section4{
+    width: 375px;
+height: 517.68px;
+max-width: 375px;
+flex-direction: column;
+max-width: 375px;
+
+}
+.img-logo{
+    flex-direction: column;
+    height: 300px;
+}
+.section5{
+    width: 375px;
+height: 302px;
+max-width: 375px;
+flex-direction: column;
+}
+.section5 h1{
+    width: 327px;
+height: 64px;
+text-align: center;
+
+}
+footer{
+    width: 375px;
+height: 432px;
+max-width: 375px;
+flex-direction: column;
+display: flex;
+align-items: center;
+justify-content: center;
+.container{
+    flex-direction: column;
+    height: 200px;
+    
+}
+}
+}
